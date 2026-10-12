@@ -1,0 +1,59 @@
+{
+  "recommendations": [
+    // themes & icons
+    "antfu.theme-vitesse",
+    "Catppuccin.catppuccin-vsc-icons",
+
+    // editor
+    "vscodevim.vim",
+
+    // visuals
+    "antfu.file-nesting",
+    "usernamehw.errorlens",
+    "streetsidesoftware.code-spell-checker",
+    "naumovs.color-highlight",
+
+    // fmt
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint",
+    "oxc.oxc-vscode",
+
+    // git
+    "adam-bender.commit-message-editor",
+    "mhutchie.git-graph",
+    "eamodio.gitlens",
+
+    // github
+    "antfu.open-in-github-button",
+    "github.vscode-github-actions",
+    "GitHub.vscode-pull-request-github",
+
+    // fullstack ts dev
+    "ritwickdey.liveserver",
+    "dsznajder.es7-react-js-snippets",
+    "vue.volar",
+    "sdras.vue-vscode-snippets",
+    "bradlc.vscode-tailwindcss",
+    "antfu.unocss",
+    "antfu.slidev",
+    "vitest.explorer",
+    "ms-playwright.playwright",
+    "expo.vscode-expo-tools",
+    "astro-build.astro-vscode",
+    "johnsoncodehk.vscode-tsconfig-helper",
+    "antfu.browse-lite",
+
+    // sql
+    "dbcode.dbcode",
+
+    // python
+    "ms-toolsai.jupyter",
+    "charliermarsh.ruff",
+
+    // rust
+    "rust-lang.rust-analyzer",
+
+    // ai
+    "codeium.codeium"
+  ]
+}
