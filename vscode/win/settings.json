@@ -43,5 +43,35 @@
   // To improve performance
   "extensions.experimental.affinity": {
     "vscodevim.vim": 1
+  },
+
+  // /////////////////////// Terminal ///////////////////////
+  "terminal.integrated.fontFamily": "'0xProto Nerd Font Mono'",
+  "terminal.integrated.defaultProfile.windows": "Git Bash - zsh",
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
+    },
+    "Command Prompt": {
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "args": [],
+      "icon": "terminal-cmd"
+    },
+    "Git Bash": {
+      "source": "Git Bash",
+      "icon": "terminal-git-bash",
+      "path": "C:\\Program Files\\Git\\bin\\bash.exe",
+      "args": ["--login", "-i"]
+    },
+    "Git Bash - zsh": {
+      "source": "Git Bash",
+      "icon": "terminal-git-bash",
+      "path": "C:\\Program Files\\Git\\bin\\bash.exe",
+      "args": ["--login", "-i", "-c", "exec zsh"]
+    }
   }
 }
