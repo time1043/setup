@@ -20,7 +20,9 @@ alias z='zed .'
 alias csp="code $SETUP_DIR"
 alias zsp="zed $SETUP_DIR"
 
-alias pi='pn i'
+# pnpm v12
+alias i='pn i' # to avoid pi-agent
+alias ci='pn ci' # clean and install
 alias pd='pn dev'
 alias ps='pn start'
 alias pt='pn test'
