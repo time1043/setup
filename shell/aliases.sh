@@ -8,7 +8,7 @@ alias base="cd $CODE_DIR/base"
 alias web="cd $CODE_DIR/base/web"
 alias ref="cd $CODE_DIR/.ref"
 
-alias t='tree'
+# alias t='tree' # repeated with pn test
 alias h='history | tail -10'
 alias hm='history'
 alias dud='du -hd 1'
@@ -20,14 +20,14 @@ alias z='zed .'
 alias csp="code $SETUP_DIR"
 alias zsp="zed $SETUP_DIR"
 
-# pnpm v12
+# pnpm v12 - frequently used
 alias i='pn i' # to avoid pi-agent
 alias ci='pn ci' # clean and install
-alias pd='pn dev'
-alias ps='pn start'
-alias pt='pn test'
-alias pb='pn build'
-alias pp='pn preview'
+alias d='pn dev'
+alias s='pn start'
+alias t='pn test'
+alias b='pn build'
+alias p='pn preview'
 
 alias bl='brew list'
 alias bi='brew install'
